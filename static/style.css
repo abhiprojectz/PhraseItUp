@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+
+
+body {
+
+	width: 100%;
+	font-family: 'Raleway';
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+.main {
+
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.main > p,div,button,h1 {
+	display: block;
+}
+
+.head {
+
+	display: flex;
+}
+
+.head h1 {
+	margin: auto;
+	float: left;
+	margin-top: 10px;
+
+}
+
+.head svg {
+	border-radius: 50%;
+	border: 0;
+	margin-right: 10px;
+	float: right;
+	padding: 3px;
+	cursor: pointer;
+}
+
+svg:hover {
+
+	border: 2px solid #495450;
+}
+
+h1{
+	color: #D24335;
+}
+
+button {
+
+	padding: 10px;
+	width: 100px;
+	background: #D24335;
+	color: #fff;
+	font-family: 'Passion one';
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	font-size: 16px;
+	border-radius: 10px;
+	
+}
+
+button:hover {
+
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.right {
+
+	float: right;
+	margin:auto;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+
+
+.wrapper {
+
+	height: 70vh;
+	width: 80%;
+	display: flex;
+	padding: 0;
+	margin: auto;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	border-radius: 10px;
+}
+
+.wrapper > textarea {
+
+	
+	height: 70vh
+	margin: auto;
+	width: 85%;
+	resize: none;
+	outline: none;
+	border: 0;
+	font-family: 'Raleway';
+	border-radius: 10px;
+	padding: 10px;
+}
+
+textarea:hover{
+
+	border: 1px solid #D24335;
+}
+
+ 
+    @media only screen and (min-width : 768px) {
+
+    	.main{
+
+    		width: 70%;
+    		margin: auto;
+    	}
+
+    }
+
+footer {
+
+	background: #D24335;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+
+}
+
+footer > p {
+
+	margin: auto;
+	font-weight: 500;
+	height: auto;
+	padding: 15px;
+	font-size: 14px;
+}
+
+.container {
+
+	display: flex;
+	
+}
